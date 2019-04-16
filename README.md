@@ -8,6 +8,7 @@ Package dependencies are included in **requirements.txt**
 
 #### Usage
 `$ python train.py --layers --save_path --ntopics --epoch [--beta1] [--beta2] [--batch_size] --lr --temp --train_data [--test_data] [--label_test] --word2idx [--word_vec] [--wv_size] [--train_wv] [--alpha] --burn_in [--accumulate_metrics] [--experiment_name]` 
+
 where arguments in [] are optional
 - `layers`: specify the size of the fully connected layers. For example: `128,128` means that there are 2 layers, each of them has 128 units.
 - `save_path`: the path of the directory to save the training result.
