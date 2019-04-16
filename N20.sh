@@ -1,0 +1,22 @@
+mkdir -p $1
+python3 train.py \
+--experiment_name $4 \
+--accumulate_metrics $5 \
+--layers "128,128" \
+--save_path=$1 \
+--ntopics $2 \
+--epoch 64 \
+--beta1 0.0 \
+--beta2 0.99 \
+--batch_size 256 \
+--lr "8e-3,74" \
+--temp "0.5,74" \
+--train_data "./data/N20/full/N20.npy" \
+--test_data "./data/N20/full/N20.npy" \
+--label_train "./data/N20/full/N20.LABEL" \
+--label_test "./data/N20/full/N20.LABEL" \
+--word2idx "./data/N20/word2idx.json" \
+--word_vec "./data/N20/$3_wv.npy" \
+--alpha 0.1 \
+--train_wv \
+--burn_in 2368
