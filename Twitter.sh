@@ -13,7 +13,6 @@ python3 train.py \
 --temp "0.7,10" \
 --train_data "./data/Twitter/Twitter.npy" \
 --test_data "./data/Twitter/Twitter.npy" \
---label_train "./data/Twitter/Twitter.LABEL" \
 --label_test "./data/Twitter/Twitter.LABEL" \
 --word2idx "./data/Twitter/word2idx.json" \
 --word_vec "./data/Twitter/$3_wv.npy" \

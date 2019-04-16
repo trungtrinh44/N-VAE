@@ -13,7 +13,6 @@ python3 train.py \
 --temp "0.7,49" \
 --train_data "./data/snippets/snippets.npy" \
 --test_data "./data/snippets/snippets.npy" \
---label_train "./data/snippets/snippets.LABEL" \
 --label_test "./data/snippets/snippets.LABEL" \
 --word2idx "./data/snippets/word2idx.json" \
 --word_vec "./data/snippets/$3_wv.npy" \

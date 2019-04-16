@@ -13,7 +13,6 @@ python3 train.py \
 --temp "0.7,2" \
 --train_data "./data/N20/small/N20small.npy" \
 --test_data "./data/N20/small/N20small.npy" \
---label_train "./data/N20/small/N20small.LABEL" \
 --label_test "./data/N20/small/N20small.LABEL" \
 --word2idx "./data/N20/word2idx.json" \
 --word_vec "./data/N20/$3_wv.npy" \

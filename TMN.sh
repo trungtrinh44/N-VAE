@@ -13,7 +13,6 @@ python3 train.py \
 --temp "0.7,128" \
 --train_data "./data/TMN/full/TMN.npy" \
 --test_data "./data/TMN/full/TMN.npy" \
---label_train "./data/TMN/full/TMN.LABEL" \
 --label_test "./data/TMN/full/TMN.LABEL" \
 --word2idx "./data/TMN/word2idx.json" \
 --word_vec "./data/TMN/$3_wv.npy" \
