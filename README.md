@@ -30,6 +30,7 @@ where arguments in [] are optional
 - `experiment_name`: the name of the experiment to save in the `accumulate_metrics` file.
 
 To run the experiment, download the experiment data and run the corresponding scripts. For example, to run the experiment on the `N20small` dataset with `6` topics and `GloVe` pretrained word embeddings :
+
 `bash N20small.sh runs/N20small 6 glove N20small,6,glove runs/result.csv`
 
 To run the model on a new dataset, please format the dataset according to the experiment data. Remember that word index start from 0.
